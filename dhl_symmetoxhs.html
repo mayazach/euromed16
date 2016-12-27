@@ -1,0 +1,65 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+	<title>Euromed2016-Εκθέτες/Δήλωση συμμετοχής</title>
+  </head>
+  <body>
+    <form action="" method="get">
+	  <h2>Δήλωση συμμετοχής</h2>
+	  <table>
+	    <tr>
+		  <td></td>
+		  <td><small>(τα πεδία σημειωμένα με * είναι υποχρεωτικά)</small></td>
+		</tr>
+		<tr>
+		  <td><label for="uname">Ονοματεπώνυμο* </label></td>
+		  <td><input type ="text" id="uname" name="txtName"></td>
+		</tr>
+		<tr>
+		  <td><label for="mail">e-mail* </label></td>
+		  <td><input type ="text" id="mail" name="emailAddr"></td>
+		</tr>
+		<tr>
+		  <td><label for="comp">Όνομα εταιρείας* </label></td>
+		  <td><input type ="text" id="comp" name="txtCname"></td>
+		</tr>
+		<tr>
+		  <td><label for="phone">Τηλέφωνο* </label></td>
+		  <td><input type ="text" id="phone" name="txtPhone"></td>
+		</tr>
+		<tr>
+		  <td><label for="pack">Πακέτο </label></td>
+		  <td>
+		    <select id="pack">
+			  <option selected="selected">1 </option>
+			  <option>2 </option>
+			</select>
+		  </td>
+		</tr>
+		<tr>
+		  <td><label for="description">Περιγραφή εκθεμάτων* </label></td>
+		  <td><textarea id="desription" rows="10" cols="40" ></textarea></td>
+		</tr>
+		<tr>
+		  <td>
+			  <label for="pos">Περίπτερο: </label>
+			  <select id="pos">
+				<option>Α12</option>
+				<option>Α14</option>
+				<option>Α16</option>
+				<option>Β1</option>
+				<option>Β2</option>
+				<option>Β3</option>
+				<option>Β4</option>
+				<option>Γ7</option>
+				<option>Γ9</option>
+			  </select>
+		  </td>
+		  <td><img src="http://placehold.it/300x300" alt="placeholder image"></td>
+		</tr>
+	  </table>
+	  <input type="reset" value="Ακύρωση"/>
+	  <input type="submit" value="Υποβολή"/>
+	</form>
+  </body>
+</html>
